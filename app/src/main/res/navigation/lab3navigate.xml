@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lab3navigate"
+    app:startDestination="@id/modComida">
+
+    <activity
+        android:id="@+id/modComida"
+        android:name="com.mauri.presentacion3.modComida"
+        android:label="activity_mod_comida"
+        tools:layout="@layout/activity_mod_comida" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.mauri.presentacion3.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/modificarActivity"
+        android:name="com.mauri.presentacion3.ModificarActivity"
+        android:label="activity_modificar"
+        tools:layout="@layout/activity_modificar" />
+</navigation>
